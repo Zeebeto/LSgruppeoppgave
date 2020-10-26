@@ -62,12 +62,8 @@ function r3k1(mekk) {
 
 //FELLES
 
-function r3k2() {
-    
-}
-
-function r2k1() {
-
-}
-
+function getImage(){
+    var randomNr = Math.floor(Math.random() * 1001); //genererer random tall mellom 0-1000
+    document.getElementById("img").innerHTML = "<img style='height: auto; width: 100%;' src='https://picsum.photos/id/"+ randomNr +"/200/300'>";
+   }
 
